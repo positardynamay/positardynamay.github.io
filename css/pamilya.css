@@ -1,0 +1,257 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+header{
+	width: 100%;
+	height: 15vh;
+	background-color: white;
+}
+.menu ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 40px;
+	text-align: center;
+
+	
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding: 10px 20px;
+	border: none;
+	transition: 0.6s ease;
+	text-align: center;
+	font-weight: bolder;
+	font-family: sans-serif;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid white;
+	transition: 1.5s ease;
+	color: red;
+}
+.menu ul li a{
+	margin-right: 20px;
+}
+.first{
+	margin-right: 300px;
+}
+.signin a{
+	position: absolute;
+	top: 40px;
+	left: 84%;
+	padding: 8px 20px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	font-size: 15px;
+	transition: 0.4s ease;
+}
+
+.signout a{
+	position: absolute;
+	font-size: 15px;
+	text-decoration: none;
+	top: 40px;
+	left: 92%;
+	padding: 8px 13px;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	transition: 0.4s ease;
+}
+.signin a:hover,.signout a:hover{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+}
+.logo{
+	position: absolute;
+	font-size: 20px;
+	left: 250px;
+	top: 25px;
+	font-family: Times New Roman;
+}
+.logo h1{
+	color: black;
+	font-weight: bolder;
+}
+.sec{
+	width: 100%;
+	padding: 42.5vh 0%;
+	background-color: black;
+	margin-top: 0%;
+}
+.sidenav{
+	width: 20%;
+	list-style-type: none;
+	background-color: #6C6C6C;
+	position: absolute;
+	height: 85%;
+	top: 15vh;
+}.sidenav ul li a{
+	color: white;
+	text-decoration: none;
+}
+.sidenav ul li a:hover{
+	color: #61B8D3;
+}
+.sidenav .skill a{
+	color: #61B8D3;
+	text-decoration: none;
+	list-style: none;
+}
+.sidenav p{
+	text-align: center;
+	margin-top: 50px;
+	color: yellow;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-bottom: 25px;
+}
+.sidenav ul li{
+	margin-left: 70px;
+	margin-top: 5px;
+	height: 30px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+.sidenav ul li:hover{
+	border-bottom: 1px solid white;
+	color: #61B8D3;
+}.sidenav ul li a{
+	color: white;
+	text-decoration: none;
+}
+.sidenav ul li a:hover{
+	color: #61B8D3;
+}
+.sidenav .pamilya a{
+	color: #61B8D3;
+}
+.lblfam{
+	position: absolute;
+	top: 25%;
+	left: 35%;
+}
+.lblfam h1{
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+	margin-top: 36px;
+}
+.fam{
+	position: absolute;
+	top: 25%;
+	left: 53%;
+}
+.fam p{
+	font-size: 20px;
+	font-weight: bolder;
+	margin-top: 30px;
+	color: yellow;
+}
+.pic{
+	position: absolute;
+	top: 40%;
+	left: 75%;
+}
+.foot{
+	position: absolute;
+	width: 100%;
+	height: 64vh;
+	background-color: #D9D9DB;
+}
+.icons{
+	position: absolute;
+	margin-left: 48%;
+	margin-top: 45px;
+}
+.icon2{
+	position: absolute;
+	margin-left: 53%;
+	margin-top: 45px;
+}
+.icon3{
+	position: absolute;
+	margin-left: 58%;
+	margin-top: 45px;
+}
+btn btn-primary{
+	font-size: 30px;
+}
+.icon4{
+	position: absolute;
+	margin-left: 63%;
+	margin-top: 45px;
+}
+.upper-msg{
+	margin-top : 30px;
+	margin-left: 20%;
+	font-weight: bolder;
+	font-family: sans-serif;
+	font-size: 25px;
+	color: red;
+}
+.upper-msg p{
+	color: black;
+}
+.down-nav{
+	margin-left: 20%;
+	margin-top: 0;
+	color: white;
+}
+.down-nav p{
+	font-size: 20px;
+	color: black;
+	transition: 0.3s ease;
+}
+.downnav p a{
+	color: white;
+}
+.h:hover{
+	color: blue;
+	cursor: pointer;
+}
+.c:hover{
+	color: blue;
+	cursor: pointer;
+}
+.a:hover{
+	color: blue;
+	cursor: pointer;
+}
+.foot-msg-btn{
+	position: relative;
+	margin-top: 20px;
+	margin-left: 75px;
+}
+.foot-msg-btn p{
+	font-family: sans-serif;
+	font-size: 40px;
+	color: black;
+	font-weight: bolder;
+	font-style: italic;
+}
+.down-input{
+	padding: 15px 30%;
+	border-radius: 20px;
+	margin-top: 5px;
+}
+.down-btn{
+	padding: 18px 40px;
+	border-radius: 20px;
+	border: none;
+	color: white;
+	background-color: black;
+	margin-left: 30px;
+}

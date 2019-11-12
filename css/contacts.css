@@ -1,0 +1,121 @@
+	*{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+header{
+	width: 100%;
+	height: 15vh;
+	background-color: black;
+}
+.menu ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 35px;
+	text-align: center;
+
+	
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: lightblue;
+	font-size: 20px;
+	padding: 10px 20px;
+	transition: 0.6s ease;
+	text-align: center;
+	font-weight: bolder;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid red;
+	transition: 1.5s ease;
+	color: black;
+}
+.menu ul li a{
+	margin-right: 20px;
+}
+.first{
+	margin-right: 250px;
+}
+.logo{
+	position: absolute;
+	color: blue;
+	font-size: 30px;
+	left: 250px;
+	top: 15px;
+	font-weight: bolder;
+}
+.homes a{
+	border-bottom: 1px solid orange; 
+}
+
+.sec{
+	width: 100%;
+	padding: 42.5vh 0%;
+	background-color: black;
+	margin-top: 0%;
+}
+.sidenav{
+	width: 20%;
+	list-style-type: none;
+	background-color: blue;
+	position: absolute;
+	height: 20%;
+	top: 15vh;
+}
+.sidenav p{
+	text-align: center;
+	margin-top: 50px;
+	color: yellow;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-bottom: 25px;
+}
+.sidenav ul li{
+	margin-left: 70px;
+	margin-top: 5px;
+	height: 30px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+.sidenav ul li:hover{
+	border-bottom: 1px solid white;
+	color: #61B8D3;
+}
+.lbl{
+	position: absolute;
+	top: 20%;
+	left: 45%;
+}
+.lbl h1{
+	font-weight: bolder;
+	font-size: 50px;
+	font-family: sans-serif;
+	border-bottom: 1px solid yellow;
+	transition: 0.6s ease;
+}
+.lbl h1:hover{
+	color: yellow;
+	border-bottom: 1px solid white;
+}
+.contact{
+	position: absolute;
+	top: 40%;
+	left: 10%;
+}
+.contact h1{
+	font-weight: bolder;
+	font-family: sans-serif;
+	font-size: 50px;
+	color: orange;
+	margin-left: 13px;
+}
+.contact p{
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: bolder;
+}

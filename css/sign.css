@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Times New Roman;
+	background-color: #efef;
+	color: #777;
+}
+.inside{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	padding: 40px;
+	background: #fff;
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px;
+	border-radius: 10px;
+	transition: 0.5s ease;
+}
+.inside h1{
+	margin: 0 0 30px;
+	padding: 0;
+	color:  black;
+	text-align: center;
+	background-color: #fff;
+}
+input[type = "text"],
+input[type = "password"]
+{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: black;
+	margin-bottom: 30px;
+	background: transparent;
+}
+.signup{
+	padding: 8px 20px;
+	background-color: orange;
+	text-align: center;
+	margin-left: 35%;
+	border: none;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+.signup:hover{
+	background-color: orange;
+	box-shadow: 0 14px 18px 0 rgba(0,0,0,0.18),0 17px 50px 0 rgba(0,0,0,0.11);
+	transition: 1s ease;
+}
+.first{
+	margin-right: 300px;
+}
+.signin a{
+	position: absolute;
+	top: 40px;
+	left: 84%;
+	padding: 3px 20px;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	transition: 0.4s ease;
+}
+
+.signout a{
+	position: absolute;
+	top: 40px;
+	left: 92%;
+	padding: 3px 13px;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	transition: 0.4s ease;
+}
+.signin a:hover,.signout a:hover{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+}
